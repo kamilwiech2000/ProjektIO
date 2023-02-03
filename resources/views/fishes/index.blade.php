@@ -37,6 +37,7 @@
     <table class="table table-hover table-striped">
         <thead>
             <tr>
+                <th scope="col">#</th>
                 <th scope="col">Gatunek</th>
                 <th scope="col">Średnia waga</th>
                 <th scope="col">Średnia długość</th>

@@ -14,10 +14,10 @@
                     {{Auth::user()->name}}, wyloguj się
                 </x-responsive-nav-link>
             </form>
-
+            @if(Auth::user()->id == 1)<ul >
         <a href="{{ route('fisheries.index') }}" class="btn btn-secondary" > Łowiska </a>
         <a href="{{ route('fishes.index') }}" class="btn btn-secondary"> Ryby </a>
-
+            @endif
 
             {{-- <---<a class="dropdown-item" href="{{route('dashboard')}}">Log Out --}}
         {{-- </a> --}}
